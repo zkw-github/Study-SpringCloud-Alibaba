@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Module-Admin/Module-Admin.iml" filepath="$PROJECT_DIR$/Module-Admin/Module-Admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/Module-Goods/Module-Goods.iml" filepath="$PROJECT_DIR$/Module-Goods/Module-Goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module-Orderform/Module-Orderform.iml" filepath="$PROJECT_DIR$/Module-Orderform/Module-Orderform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module-User/Module-User.iml" filepath="$PROJECT_DIR$/Module-User/Module-User.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module/module.iml" filepath="$PROJECT_DIR$/Module/module.iml" />
     </modules>
   </component>
 </project>
