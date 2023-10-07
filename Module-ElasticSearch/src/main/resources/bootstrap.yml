@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848  #配置连接Nacos地址
+        username: nacos              #配置连接Nacos的用户名
+        password: nacos              #配置连接Nacos的密码
+      config:
+        prefix: config               #配置Config前缀（文件名）
+        file-extension: yml          #配置Config扩展名

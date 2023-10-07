@@ -31,7 +31,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/fc/**", "/page","/get/*", "/swagger-ui/**", "/swagger-resources/**", "/v3/**").permitAll() //设置开放API路径
+                .antMatchers( "/remove","/swagger-ui/**", "/swagger-resources/**", "/v3/**").permitAll() //设置开放API路径
                 .anyRequest().authenticated()                 //对其它请求进行认证
                 .and()
                 .exceptionHandling().authenticationEntryPoint(authenticationEntryPoint)     //当身份认证未通过时执行的操作

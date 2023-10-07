@@ -7,18 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="module" />
-        <module name="Module-User" />
-        <module name="Module-Goods" />
-        <module name="Module-Orderform" />
         <module name="Module-Admin" />
+        <module name="Module-Orderform" />
+        <module name="Module-User" />
+        <module name="module" />
+        <module name="Module-Seckill" />
+        <module name="Module-Goods" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="module" target="1.8" />
       <module name="Module-Admin" target="1.8" />
+      <module name="Module-ElasticSearch" target="1.8" />
       <module name="Module-Goods" target="1.8" />
       <module name="Module-Orderform" target="1.8" />
+      <module name="Module-Seckill" target="1.8" />
       <module name="Module-User" target="1.8" />
     </bytecodeTargetLevel>
   </component>

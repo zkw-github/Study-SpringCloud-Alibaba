@@ -2,7 +2,7 @@
 server:
   port: 8082
   servlet:
-    context-path: /user
+    context-path: /api/user
 
 #spring应用和数据源配置
 spring:
